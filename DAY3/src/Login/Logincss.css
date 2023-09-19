@@ -1,0 +1,95 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the login form vertically and horizontally */
+  
+  /* Style the login container */
+  .login-container {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Style the login form header */
+  .login-header {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style form fields and labels */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style the login button */
+  .login-button {
+    background: linear-gradient(to bottom, #e65197, #fb65cc);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(to bottom, #f76d8e, #d2215c);
+  }
+  
+  /* Additional styling for the form footer */
+  .form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  /* Set the background image */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\React\5thSem\project1\src\bgimage.avif'); /* Update the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Rest of your styles */
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity to make text more readable */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  /* Other styles... */
+  
