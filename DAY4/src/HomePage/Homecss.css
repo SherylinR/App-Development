@@ -1,0 +1,118 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+/* Navbar styles */
+.navbar1 {
+  background-color: #e089b3;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.navbar1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar1 li {
+  font-weight: 600;
+  margin: 2px 0px 0 5px;
+  transition: all 0.3s;
+}
+.navbar1 li:hover {
+
+  color: #bb90d0; /* Change text color on hover */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+.navbar1 a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+/* Sidebar styles */
+.sidebar1 {
+  background-color: #2f2f2f;
+  color: #fff;
+  width: 70px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar1.open {
+  width: 200px; /* Expanded sidebar */
+}
+
+.sidebar1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar1 li {
+  margin-bottom: 10px;
+}
+
+.sidebar1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar1 a:hover {
+  color: #e089b3; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+.sidebar1-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #222121; /* Add border at the bottom of the icon */
+  margin-bottom: auto; /* Push the toggle icon to the top */
+  margin-top: 80px; /* Adjust for the navbar height */
+  right: 0; /* Align to the right */
+}
+
+.toggle-icon {
+  font-size: 24px;
+  color: #b61c7b;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+
+/* Content styles */
+.content1 {
+  margin-left: 80px; /* Adjust for the sidebar width */
+  padding: 20px;
+  background-color: #fff; /* White content background */
+  margin-top: 80px; /* Adjust for the navbar height */
+  width: 1331px;
+}
