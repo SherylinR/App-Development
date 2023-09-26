@@ -1,0 +1,139 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family:cursive;
+  background-color: #f5f5f5;
+}
+
+
+/* Navbar styles */
+.navbar1 {
+  background-color: #e089b3;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.navbar1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar1 li {
+  font-weight: 600;
+  margin: 2px 0px 0 5px;
+  transition: all 0.3s;
+}
+.navbar1 li:hover {
+
+  color: #bb90d0; /* Change text color on hover */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+.navbar1 a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+/* Sidebar styles */
+.sidebar1 {
+  background-color: #2f2f2f;
+  color: #fff;
+  width: 150px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+
+.sidebar1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar1 li {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.sidebar1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar1 a:hover {
+  color: #e089b3; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+
+
+/* Content styles */
+.content1 {
+  margin-left: 175px; /* Adjust for the sidebar width */
+  padding: 20px;
+  background-color: #fff; /* White content background */
+  margin-top: 65px; /* Adjust for the navbar height */
+  width: 1331px;
+}
+/* Add this CSS to your existing stylesheet or create a new CSS file */
+
+/* Button styles */
+.view-products-button {
+  background-color: #e089b3;
+  color: #fff;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 500px;
+  margin-left: 500px;
+  font-style: oblique;
+}
+
+.view-products-button:hover {
+  background-color: #bb90d0; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+/* Add this CSS to a new or existing stylesheet */
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px;
+}
+
+/* Individual image styles */
+.image-container img {
+  width: 650px; /* Adjust the width as needed */
+  height: 350px; /* Maintain aspect ratio */
+  margin: 10px; /* Adjust the spacing between images */
+  border: 1px solid #ccc; /* Add a border around the images */
+  border-radius: 5px; /* Add rounded corners to the images */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the images */
+  margin-top: -400px;
+  padding: 10px;
+  margin-left: -500px;
+}
+
+/* Style the "View Products" button (already provided earlier) */

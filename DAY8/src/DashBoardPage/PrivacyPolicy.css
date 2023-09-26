@@ -1,0 +1,49 @@
+/* PrivacyPolicy.css */
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .privacy-policy h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-policy p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .footera{
+    background-color: #333;
+    color: rgb(44,48,52);
+    margin: 0;
+    padding: 0 0 6px 0;
+    border-bottom: 1px solid rgba(0,0,0,1);
+  }
+  
+  .containerb{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .privacy-policy h2 {
+    font-size: 21px;
+  }
+  .privacy-policy h4 {
+    font-size: 18px;
+  }
+/* Back link styles */
+.back-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #000000; /* Change this color to match your design */
+  margin-bottom: 20px;
+}
+
+.back-link i {
+  margin-right: 5px;
+}
